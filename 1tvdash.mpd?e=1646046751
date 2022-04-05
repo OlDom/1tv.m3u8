@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd" type="dynamic" publishTime="2022-04-05T21:46:03.211Z" minimumUpdatePeriod="PT10S" availabilityStartTime="2022-03-14T18:53:13.205Z" minBufferTime="PT2S" suggestedPresentationDelay="PT40S" timeShiftBufferDepth="PT12H0M0S" profiles="urn:mpeg:dash:profile:isoff-live:2011">
+  <Period start="PT0S" id="1">
+    <AdaptationSet mimeType="video/mp4" frameRate="25/1" segmentAlignment="true" subsegmentAlignment="true" startWithSAP="1" subsegmentStartsWithSAP="1" bitstreamSwitching="false">
+      <SegmentTemplate timescale="90000" duration="450000" startNumber="1"/>
+      <Representation id="1" width="1280" height="720" bandwidth="3800000" codecs="avc1.64001f">
+        <SegmentTemplate duration="450000" startNumber="1" media="../../../dash-live2/streams/1tv-dvr/1tvdash1-12hFrag-hd-5-20220314T185304_$Number%09d$.mp4" initialization="1tvdash1-12hFrag-hd-5-20220314T185304init.mp4"/>
+      </Representation>
+      <Representation id="2" width="1280" height="720" bandwidth="2400000" codecs="avc1.64001f">
+        <SegmentTemplate duration="450000" startNumber="1" media="../../../dash-live2/streams/1tv-dvr/1tvdash1-12hFrag-hd-4-20220314T185304_$Number%09d$.mp4" initialization="1tvdash1-12hFrag-hd-4-20220314T185304init.mp4"/>
+      </Representation>
+      <Representation id="3" width="1280" height="720" bandwidth="1250000" codecs="avc1.64001f">
+        <SegmentTemplate duration="450000" startNumber="1" media="../../../dash-live2/streams/1tv-dvr/1tvdash1-12hFrag-hd-3-20220314T185304_$Number%09d$.mp4" initialization="1tvdash1-12hFrag-hd-3-20220314T185304init.mp4"/>
+      </Representation>
+      <Representation id="4" width="640" height="360" bandwidth="950000" codecs="avc1.4d401e">
+        <SegmentTemplate duration="450000" startNumber="1" media="../../../dash-live2/streams/1tv-dvr/1tvdash1-12hFrag-hd-2-20220314T185304_$Number%09d$.mp4" initialization="1tvdash1-12hFrag-hd-2-20220314T185304init.mp4"/>
+      </Representation>
+      <Representation id="5" width="640" height="360" bandwidth="350000" codecs="avc1.4d401e">
+        <SegmentTemplate duration="450000" startNumber="1" media="../../../dash-live2/streams/1tv-dvr/1tvdash1-12hFrag-hd-1-20220314T185304_$Number%09d$.mp4" initialization="1tvdash1-12hFrag-hd-1-20220314T185304init.mp4"/>
+      </Representation>
+      <Representation id="6" width="160" height="90" bandwidth="110000" codecs="avc1.4d400b">
+        <SegmentTemplate duration="450000" startNumber="1" media="../../../dash-live2/streams/1tv-dvr/1tvdash1-12hFrag-hd-0-20220314T185304_$Number%09d$.mp4" initialization="1tvdash1-12hFrag-hd-0-20220314T185304init.mp4"/>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="rus" segmentAlignment="0" startWithSAP="1">
+      <SegmentTemplate timescale="48000" media="../../../dash-live2/streams/1tv-dvr/1tvdash1-12hFrag-hd-audio-lowres-20220314T185304_$Number%09d$.mp4" initialization="1tvdash1-12hFrag-hd-audio-lowres-20220314T185304init.mp4" duration="240000" startNumber="1"/>
+      <Representation id="7" bandwidth="64000" audioSamplingRate="48000" codecs="mp4a.40.2"/>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="rus" segmentAlignment="0" startWithSAP="1">
+      <SegmentTemplate timescale="48000" media="../../../dash-live2/streams/1tv-dvr/1tvdash1-12hFrag-hd-audio-hires-20220314T185304_$Number%09d$.mp4" initialization="1tvdash1-12hFrag-hd-audio-hires-20220314T185304init.mp4" duration="240000" startNumber="1"/>
+      <Representation id="8" bandwidth="128000" audioSamplingRate="48000" codecs="mp4a.40.2"/>
+    </AdaptationSet>
+    <AdaptationSet mimeType="application/mp4" lang="rus">
+      <Role schemeIdUri="urn:mpeg:dash:role" value="subtitle"/>
+      <SegmentTemplate timescale="90000" media="../../../dash-live2/streams/1tv-dvr/1tvdash1-12hFrag-hd-caption-20220314T185304_$Number%09d$.mp4" initialization="1tvdash1-12hFrag-hd-caption-20220314T185304init.mp4" duration="450000" startNumber="1"/>
+      <Representation id="9" bandwidth="256" codecs="stpp"/>
+    </AdaptationSet>
+  </Period>
+<UTCTiming schemeIdUri="urn:mpeg:dash:utc:http-xsdate:2014" value="https://www.1tv.ru/current_time_xml"/>
+</MPD>
