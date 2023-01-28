@@ -1,0 +1,12 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-INDEPENDENT-SEGMENTS
+#EXT-X-STREAM-INF:BANDWIDTH=528000,AVERAGE-BANDWIDTH=435600,CODECS="avc1.4d4020,mp4a.40.2",RESOLUTION=426x240,FRAME-RATE=25.000
+https://livetv.mylifeisgood.ml/channels/russia24-chunks-1.m3u8?token_version=v2&hash1=UeZ3UyHhI35aCJ3VIq-dDPin20B1kwZjt6gjAz0_RH8&hash2=LbfFigMkk6OqxjfN-E949-5GmK0jgoAbZSqpQdFZS6g&timestamp=1675554584&random=adc7a9db612b6e6980619df3a3780df9
+#EXT-X-STREAM-INF:BANDWIDTH=1091200,AVERAGE-BANDWIDTH=875600,CODECS="avc1.4d4020,mp4a.40.2",RESOLUTION=640x360,FRAME-RATE=25.000
+https://livetv.mylifeisgood.ml/channels/russia24-chunks-2.m3u8?token_version=v2&hash1=UeZ3UyHhI35aCJ3VIq-dDPin20B1kwZjt6gjAz0_RH8&hash2=LbfFigMkk6OqxjfN-E949-5GmK0jgoAbZSqpQdFZS6g&timestamp=1675554584&random=adc7a9db612b6e6980619df3a3780df9
+#EXT-X-STREAM-INF:BANDWIDTH=4329600,AVERAGE-BANDWIDTH=3405600,CODECS="avc1.4d4020,mp4a.40.2",RESOLUTION=854x480,FRAME-RATE=25.000
+https://livetv.mylifeisgood.ml/channels/russia24-chunks-3.m3u8?token_version=v2&hash1=UeZ3UyHhI35aCJ3VIq-dDPin20B1kwZjt6gjAz0_RH8&hash2=LbfFigMkk6OqxjfN-E949-5GmK0jgoAbZSqpQdFZS6g&timestamp=1675554584&random=adc7a9db612b6e6980619df3a3780df9
+
+
+https://livetv.mylifeisgood.ml/channels/russia24?i=a.m3u8
